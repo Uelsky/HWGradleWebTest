@@ -32,8 +32,8 @@ public class ApplicationForCard {
 
     @Test
     public void testValid1() {
-        driver.findElement(By.cssSelector("[data-test-id ='namee'] input")).sendKeys("Иванов Иван");
-        driver.findElement(By.cssSelector("[data-test-id ='phonee'] input")).sendKeys("+74950000000");
+        driver.findElement(By.cssSelector("[data-test-id ='name'] input")).sendKeys("Иванов Иван");
+        driver.findElement(By.cssSelector("[data-test-id ='phone'] input")).sendKeys("+74950000000");
         driver.findElement(By.cssSelector("[data-test-id ='agreement']")).click();
         driver.findElement(By.className("button")).click();
         String expected = "Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.";
