@@ -1,4 +1,4 @@
-# Домашнее задание к занятию «2.1. Тестирование веб-интерфейсов»
+# Домашнее задание к занятию «2.1. Тестирование веб-интерфейсов» [![Build status](https://ci.appveyor.com/api/projects/status/yb5fdf4h902n8ajw?svg=true)](https://ci.appveyor.com/project/Uelsky/hwgradlewebtest)
 
 ## Студент: Максимов Сергей Алексеевич
 
